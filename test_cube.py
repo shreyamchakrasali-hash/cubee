@@ -1,5 +1,3 @@
-from cube import cube_number
+from cube import is_palindrome
 
-def test_case():
-    assert cube_number(3) == "Number : 3\nCube : 27"
-
+def test_case(): assert is_palindrome("madam")
