@@ -1,6 +1,9 @@
-def is_palindrome(text):
-    return text == text[::-1]
+def cube_number(num):
+    result = (
+        f"Number : {num}\n"
+        f"Cube : {num ** 3}"
+    )
+    return result
 
 if __name__ == "__main__":
-    text = input()
-    print(is_palindrome(text))
+    print(cube_number(3))
