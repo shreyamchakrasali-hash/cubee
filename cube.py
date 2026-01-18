@@ -6,4 +6,4 @@ def cube_number(num):
     return result
 
 if __name__ == "__main__":
-    print(cube_number(num))
+    print(cube_number(6))
